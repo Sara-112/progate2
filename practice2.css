@@ -1,0 +1,178 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+margin: 0 auto;
+width: 850px
+}
+
+.top-wrapper{
+text-align: center;
+padding: 180px 0 100px 0;
+opacity: 0.8;
+color: white;
+background-image: url(https://prog-8.com/images/html/advanced/top.png);
+background-size: cover;
+}
+
+
+h1{
+font-size: 36px;
+letter-spacing: 5px;
+}
+
+.top-wrapper p{
+padding-bottom: 15px;
+}
+
+.btn{
+color: white;
+padding: 8px 24px;
+display: inline-block;
+opacity: 0.8;
+border-radius: 4px;
+}
+
+.signup{
+margin-top: 15px;
+background-color: #239b76;
+}
+
+.facebook{
+background-color: #3b5998;
+margin-right: 10px;
+}
+
+.twitter{
+background-color: #55acee;
+}
+
+.fa{
+margin-right: 2px;
+}
+
+header{
+background-color: rgba(34, 49, 52, 0.9);
+height: 48px;
+width: 100%;
+position: fixed;
+z-index: 10;
+}
+
+.header-left{
+float: left;
+}
+
+.header-logo{
+margin-top:13px;
+width: 124px;
+
+}
+
+.header-right{
+background-color: rgba(255, 255, 255, 0.3);
+color: white;
+transition: all 1s;
+float: right;
+display: inline-block;
+}
+
+.login{
+padding: 0 15px;
+line-height: 48px;
+}
+
+.contents-wrapper{
+text-align: center;
+height: 365px;
+padding-bottom: 50px;
+background-color: #f7f7f7;
+}
+
+.heading{
+color: #5f5d60;
+margin: 100px 0 25px 0;
+padding-top: 40px;
+}
+
+.heading h2{
+font-weight: normal;
+font-size: 18px;
+}
+
+.lesson{
+float: left;
+width: 25%;
+}
+
+.lesson-icon{
+color: white;
+position: relative;
+}
+
+.lesson-icon p{
+position: absolute;
+top: 45%;
+width: 100%;
+margin: 0 auto;
+}
+
+.text-content{
+color: #b3aeb5;
+margin-top: 15px;
+font-size: 10px;
+width: 80%;
+margin: 0 auto;
+}
+
+.message-wrapper{
+text-align: center;
+}
+
+
+.start{
+
+background-color: #5dca88;
+padding: 5px 24px;
+box-shadow: 0px 10px 0px #1a7940;
+cursor: pointer;
+}
+
+.start:active{
+position: relative;
+top: 7px;
+box-shadow: none;
+}
+
+footer{
+margin-top: 50px;
+border-top: solid 1px grey;
+color: #b3aeb5;
+margin-left: 15px;
+padding-top: 10px;
+}
+
+.footer-logo{
+margin: 10px 0;
+width: 124px;
+}
+
+footer p{
+font-size: 10px;
+}
